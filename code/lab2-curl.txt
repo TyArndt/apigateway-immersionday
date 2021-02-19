@@ -1,0 +1,3 @@
+apikey = <API_KEY>
+
+curl -H 'x-aws-apikey: <API_KEY>' -v  <DEPLOYED_API_URL>

@@ -1,0 +1,9 @@
+Replace <API_GATEWAY_URL> with the deployment URL of API Gateway
+
+curl -v -X "PUT" -H "Content-Type: application/json" -d "{\"id\": \"101\", \"price\": 500, \"name\": \"bike\"}" https://<API_GATEWAY_URL>/items
+
+curl -v https://<API_GATEWAY_URL>/items
+
+curl -v https://<API_GATEWAY_URL>/items/101
+
+curl -v -X "DELETE" https://<API_GATEWAY_URL>/items/101
